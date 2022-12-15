@@ -1,0 +1,191 @@
+/* --------------------------- HTML Elements ----------------------------- */
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* --------------------------- HTML class  ------------------------------- */
+.big-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #FA8072;
+  color: #fff;
+}
+
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* -------------------------- Title Section ----------------------------*/
+#title{               /* #title ---> HTML id */
+  text-align: left;
+  /* #000--> black  #fff--> white*/
+}
+
+#title .conatiner-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  /* position: absolute;
+  right: 30%; */
+}
+
+/* ------------------------------- Features Section ------------------------*/
+#features{
+   /* position: relative;
+   z-index: 1;  */
+}
+
+.feature-box{
+
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.fa-solid {
+  color: #FA8072;
+  margin-bottom: 1rem;
+}
+
+/* this is a way to create hover effect */
+.fa-solid:hover{
+  color: #ff4c68;
+}
+
+
+/* -------------------------- Testimonials Section -----------------------*/
+/* #testimonials{
+  background-color: #FA8072;
+  color: #fff;
+} */
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* ------------------------------ Press Section ----------------------------*/
+/* #press{
+  background-color: #FA8072;
+  padding-bottom: 3%;
+} */
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing Section */
+#pricing{
+  padding: 100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* -------------------------- Call to Action section -----------------------*/
+/* #cta{
+  background-color: #FA8072;
+  color: #fff;
+} */
+
+/* -------------------------- Footer section -------------------------------*/
+/* #footer{
+  background-color: #fff;
+} */
+
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1032px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
